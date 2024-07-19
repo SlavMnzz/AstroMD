@@ -9,24 +9,23 @@ const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/bail
 
 const defaultMenu = {
   before: `
-⌬〡 *Nama Bot:* %me
-⌬〡 *Nama:*  %name 
-⌬〡︎ *Premium:* %prems 
-⌬〡︎ *Limit:* %limit 
-⌬〡 *Role:* %role
-⌬〡︎ *Level:* %level
-⌬〡︎ *Xp:* %exp / %maxexp
-⌬〡︎ *Total Xp:* %totalexp
-
+╭───┉
+┊❏ *Nama Bot:* %me
+┊❏ *Nama:*  %name 
+┊❏  *Premium:* %prems 
+┊❏ *Limit:* %limit 
+┊❏ *Role:* %role⌬〡︎ *Level:* %level
+┊❏ *Xp:* %exp / %maxexp
+┊❏ *Total Xp:* %totalexp
+╰─────────────┉
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 Di Mohon untuk tidak terlalu spam.
-
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 %readmore
 `.trimStart(),
-  header: '╭─────≼ %category ≽',
-  body: '╎❖ %cmd',
-  footer: '╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢',
+  header: '╭───┉ *%category*',
+  body: '┊❏  %cmd',
+  footer: '╰─────────────┉',
   after: global.wm,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {

@@ -43,27 +43,27 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╔═══┉『 *USER UNFO* 
-║➷ *Name* : %name
-║➷ *Nomer* : %tag
-║➷ *Status* : %prem
-║➷ *Limit* : %limit
-║➷ *Role* : %role
-║➷ *Level* : %level
-║➷ *Xp* : %exp / %maxexp
-║➷ *Total Xp* : %totalexp
-╚══════════════┉
-╔═══┉ 『 *INFORMATION* 
-║🅟 *Premium User*
-║🅛 *Limit Use Limits*
-╚══════════════┉
+╭───┉ *USER UNFO* 
+┊❏ *Name* : %name
+┊❏ *Nomer* : %tag
+┊❏ *Status* : %prem
+┊❏ *Limit* : %limit
+┊❏ *Role* : %role
+┊❏ *Level* : %level
+┊❏ *Xp* : %exp / %maxexp
+┊❏ *Total Xp* : %totalexp
+╰─────────────┉
+╭───┉ *INFORMATION* 
+┊🅟 *Premium User*
+┊🅛 *Limit Use Limits*
+╰─────────────┉
 ▬▭▬▭ *ALL MENU* ▬▭▬▭
 %readmore
 `.trimStart(),
-  header: '╭▬▭『 *%category* 』',
-  body: '┃ ⇨ %cmd %isPremium %islimit',
-  footer: '╰▬▭▬▭▬▭▬▭',
-  after: '_© Create by AstroMD_',
+  header: '╭───┉ *%category* 』',
+  body: '┊ ❏ %cmd %isPremium %islimit',
+  footer: '╰─────────────┉',
+  after: '公式アストロボット',
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -178,21 +178,16 @@ pageCount: 100,
 caption: text,
 contextInfo: {
 externalAdReply: {
-title: "AstroMD",
+title: "公式アストロボット",
 body: 'Chat Bot WhatsApp',
 thumbnail: fs.readFileSync('./media/thumbnail.jpg'),
-sourceUrl: "https://leonmd.carrd.co",
+sourceUrl: "https://whatsapp.com/channel/0029VaMwHM2JJhzOZyd1i737",
 mediaType: 1,
-renderLargerThumbnail: true
-}}}, { quoted: m})
-    /*await conn.adReply(m.chat, text.trim(), wish() + ' ' + name, '', fs.readFileSync('./media/thumbnail.jpg'), link.web, m)*/
-          let vn = "./vn/yowaimo.mp3"
-      
-	conn.sendFile(m.chat, vn, "ehee.mp3", null, m, true, {
-		type: "audioMessage",
-		ptt: true,
-	});
+      renderLargerThumbnail: true
+      }}})
+
   } catch (e) {
+    conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }

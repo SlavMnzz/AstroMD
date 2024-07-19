@@ -1,8 +1,8 @@
 function handler(m) {
   
   const kontak = {
-	"displayName": 'Owners Bot',
-	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN: X F ì r m á n ź x x x\nitem1.TEL;waid=62857059457518:62857059457518\nitem1.X-ABLabel:\nJangan Spam Kak\nURL;Email Owner:https://leonmd.carrd.co\nORG: INI OWNER\nEND:VCARD`
+	"displayName": 'My owner',
+	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN: VynaaChan\nitem1.TEL;waid=19419318284:19419318284\nitem1.X-ABLabel:\nChat yang sopan!\nURL;Email Owner:jstmanzz@grassdev.id\nORG: INI OWNER BUKAN BOT\nEND:VCARD`
 }
 
 conn.sendMessage(m.chat, { contacts: { contacts: [kontak] }}, { quoted: m })

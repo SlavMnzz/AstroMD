@@ -15,7 +15,7 @@ let handler = async (m, { conn, command, args }) => {
 }
 handler.help = ['tarik <jumlah>']
 handler.tags = ['rpg']
-handler.command = /^tarik([0-9]+)|tarik|tarikall|pull({0-9]+)|pull|pullall$/i
+handler.command = /^tarik([0-9]+)|tarik|tarikall$/i
 handler.group = true
 handler.rpg = true
 export default handler

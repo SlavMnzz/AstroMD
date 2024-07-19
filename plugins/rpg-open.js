@@ -30,59 +30,59 @@ const tfinventory = {
 }
 const rewards = {
     common: {
-        money: 101,
-        trash: 11,
-        potion: [0, 1, 0, 1, 0, 0, 0, 0, 0],
-        common: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0],
-        uncommon: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        money: 282,
+        trash: 111,
+        potion: [0, 1, 10, 1, 9, 0, 80, 3, 20],
+        common: [0, 1, 0, 1, 80, 40, 0, 80, 50, 0],
+        uncommon: [0, 1, 10, 10, 50, 0, 10, 0, 10, 10, 20, 0]
     },
     uncommon: {
-        money: 201,
-        trash: 31,
-        potion: [0, 1, 0, 0, 0, 0, 0, 0],
-        diamond: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        common: [0, 1, 0, 0, 0, 0, 0, 0, 0],
-        uncommon: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        mythic: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        wood: [0, 1, 0, 0, 0, 0],
-        rock: [0, 1, 0, 0, 0, 0],
-        string: [0, 1, 0, 0, 0, 0]
+        money: 20111,
+        trash: 3111,
+        potion: [99, 1, 0, 10, 2, 0, 90, 80],
+        diamond: [0, 0, 0, 1, 290, 0, 39, 0, 0, 29, 1, 10, 10, 0, 0, 0, 80, 0, 70, 40, 90],
+        common: [0, 1, 10, 10, 10, 0, 0, 0, 50],
+        uncommon: [0, 1, 0, 90, 3, 0, 20, 50, 0, 50, 0],
+        mythic: [0, 1, 70, 0, 10, 0, 80, 90, 9, 0, 80, 5, 50, 0],
+        wood: [60, 61, 60, 60, 0, 0],
+        rock: [0, 61, 60, 60, 9, 90],
+        string: [80, 81, 80, 80, 80, 0]
     },
     mythic: {
-        money: 301,
-        exp: 50,
-        trash: 61,
-        potion: [0, 1, 0, 0, 0, 0],
-        emerald: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        diamond: [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0],
-        gold: [0, 1, 0, 0, 0, 0, 1, 0, 0],
-        iron: [0, 1, 0, 0, 0, 0, 0, 0],
+        money: 900,
+        exp: 5000,
+        trash: 961,
+        potion: [90, 91, 90, 90, 90, 0],
+        emerald: [0, 1, 90, 90, 0, 90, 90, 90, 90, 9, 90, 0, 0],
+        diamond: [90, 1, 90, 0, 1, 90, 0, 91, 90, 9, 0, 0],
+        gold: [0, 1, 80, 80, 90, 0, 71, 0, 0],
+        iron: [80, 1, 5, 70, 70, 70, 0, 90],
         common: [0, 1, 0, 0, 0, 1],
-        uncommon: [0, 1, 0, 0, 0, 0, 0, 1],
-        mythic: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0],
-        legendary: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
-        pet: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1],
-        wood: [0, 1, 0, 0, 0],
-        rock: [0, 1, 0, 0, 0],
-        string: [0, 1, 0, 0, 0]
+        uncommon: [80, 1, 0, 75, 75, 75, 75, 1],
+        mythic: [75, 1, 75, 75, 75, 75, 1, 0, 0, 0],
+        legendary: [75, 1, 75, 75, 75, 1, 75, 75, 0, 75, 1, 75, 0],
+        pet: [75, 1, 75, 75, 75, 75, 1, 75, 0, 0, 1],
+        wood: [75, 1, 75, 75, 75],
+        rock: [75, 1, 75, 75, 75],
+        string: [75, 1, 75, 75, 75]
     },
     legendary: {
-        money: 401,
-        exp: 50,
-        trash: 101,
-        potion: [0, 1, 0, 0, 0],
-        emerald: [0, 0, 0, 0, 0, 0 ,0, 0, 1, 0],
-        diamond: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1],
-        gold: [0, 1, 0, 0, 0, 0, 0, 1],
-        iron: [0, 1, 0, 0, 0, 0, 1],
-        common: [0, 1, 0, 1],
-        uncommon: [0, 1, 0, 0, 0, 1],
-        mythic: [0, 1, 0, 0, 1, 0, 1, 0, 0],
-        legendary: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1],
-        pet: [0, 1, 0, 0, 0, 0, 1, 0, 0, 1],
-        wood: [0, 1, 0, 1],
-        rock: [0, 1, 0, 1],
-        string: [0, 1, 0, 1]
+        money: 4751,
+        exp: 575,
+        trash: 1751,
+        potion: [75, 1, 75, 71, 71],
+        emerald: [71, 71, 71, 7, 7, 7 ,92, 92, 1, 92],
+        diamond: [1, 92, 92, 1, 92, 92, 1, 9, 9, 1],
+        gold: [9, 1, 9, 1, 90, 90, 90, 1],
+        iron: [90, 1, 29, 29, 29, 29, 1],
+        common: [29, 1, 29, 1],
+        uncommon: [29, 1, 29, 29, 29, 1],
+        mythic: [29, 1, 22, 22, 1, 22, 1, 50, 50],
+        legendary: [1, 50, 50, 50, 1, 50, 50, 50, 50, 1],
+        pet: [50, 1, 50, 50, 50, 50, 1, 50, 50, 1],
+        wood: [50, 1, 50, 1],
+        rock: [50, 1, 50, 1],
+        string: [50, 1, 50, 1]
     },
 }
 let handler = async (m, { command, args, usedPrefix }) => {
@@ -102,7 +102,7 @@ ${usedPrefix}open mythic 3
 `.trim()
     let type = (args[0] || '').toLowerCase()
     let imgr = flaaa.getRandom()
-    let count = Math.floor(isNumber(args[1]) ? Math.min(Math.max(parseInt(args[1]), 1), Number.MAX_SAFE_INTEGER) : 1) * 1
+    let count = Math.floor(isNumber(args[1]) ? Math.min(Math.max(parseInt(args[1]), 1), 500000) : 1) * 1
     if (!(type in listCrate)) return await conn.reply(m.chat, info, m, {
         contextInfo: {
             externalAdReply : {

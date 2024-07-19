@@ -6,21 +6,23 @@ import os from 'os'
 import fs from 'fs'
 import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/baileys')).default
-
 const defaultMenu = {
   before: `
-⌬〡 *Nama Bot:* %me
-⌬〡 *Nama:*  %name 
-⌬〡︎ *Premium:* %prems 
-⌬〡︎ *Limit:* %limit 
-
+╭───┉ *Bot Introduction*
+┊❏ *Bot Name:* AstroxSpaceMD
+┊❏ *Running on:* Vps
+┊❏ *Type Script:* Plugins ESM
+┊❏ *Database:* MongoDB 
+┊❏ *Mode:* Public
+┊❏ *Platform:* MacOs Ventura
+┊❏ *Baileys:* Multi Device - Node.Js
+╰─────────────┉
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-Berikut Adalah Fitur Fun.
 %readmore
 `.trimStart(),
-  header: '╭─────≼ %category ≽',
-  body: '╎❖ %cmd',
-  footer: '╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢',
+  header: '╭───┉ *%category*',
+  body: '┊❏  %cmd',
+  footer: '╰─────────────┉',
   after: global.wm,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {

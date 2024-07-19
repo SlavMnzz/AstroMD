@@ -9,22 +9,30 @@ const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/bail
 
 const defaultMenu = {
   before: `
-⌬〡 *Nama Bot:* %me
-⌬〡 *Nama:*  %name 
-⌬〡︎ *Premium:* %prems 
-⌬〡︎ *Limit:* %limit 
-⌬〡︎ *Role:* %role
-⌬〡︎︎ *Level:* %level
-⌬〡︎︎ *Xp:* %exp / %maxexp
-⌬〡︎︎ *Total Xp:* %totalexp
+╭───┉ *Bot Introduction*
+┊❏ Bot Name : AstroxSpaceMD
+┊❏ Running on : Vps
+┊❏ Type Script : Plugins ESM
+┊❏ Database : MongoDB 
+┊❏ Mode : Public
+┊❏ Platform : MacOs Ventura
+┊❏ Baileys : Multi Device - Node.Js
+╰─────────────┉
 
+╭───┉ *User Info*
+┊❏ *Limit:* %limit 
+┊❏ *Role:* %role
+┊❏ *Level:* %level
+┊❏ *Xp:* %exp / %maxexp
+┊❏ *Total Xp:* %totalexp
+╰─────────────┉
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 Berikut Adalah Fitur Game.
 %readmore
 `.trimStart(),
-  header: '╭─────≼ %category ≽',
-  body: '╎❖ %cmd',
-  footer: '╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢',
+  header: '╭───┉ *%category*',
+  body: '┊❏  %cmd',
+  footer: '╰─────────────┉',
   after: global.wm,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {

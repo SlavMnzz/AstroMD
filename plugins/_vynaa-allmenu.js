@@ -9,15 +9,20 @@ const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/bail
 
 const defaultMenu = {
   before: `
-⌬〡 *ɴᴀᴍᴀ ʙᴏᴛ:* %me
+⌬〡 *ɴᴀᴍᴀ ʙᴏᴛ:* ᴀꜱᴛʀᴏxꜱᴘᴀᴄᴇᴍᴅ
 ⌬〡 *ɴᴀᴍᴀ:*  %name
 ⌬〡︎ *ᴘʀᴇᴍɪᴜᴍ:* %prems
 ⌬〡︎ *ʟɪᴍɪᴛ:* %limit
-  ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-*ᴀsᴛʀᴏ ʙᴏᴛ* ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴇɴᴜʜɪ ᴋᴇʙᴜᴛᴜʜᴀɴ ᴅɪɢɪᴛᴀʟ ᴀɴᴅᴀ. ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴅᴀꜰᴛᴀʀᴋᴀɴ ᴅɪʀɪ ᴀɴᴅᴀ ᴅɪ *ᴅᴀᴛᴀʙᴀꜱᴇ* ᴀsᴛʀᴏʙᴏᴛ ᴀɢᴀʀ ᴠʏɴᴀᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɪɴɢᴀᴛ ᴀɴᴅᴀ ꜱᴇʟᴀᴍᴀ ᴀsᴛʀᴏʙᴏᴛ ᴍᴀꜱɪʜ ᴀᴋᴛɪꜰ.
+⌬〡︎ *ʙᴇʀɢᴀʙᴜɴɢ ᴘᴀᴅᴀ:* ᴀᴜɢᴜꜱᴛ²⁰²¹ 
+
+ʜɪ ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ꜱᴇʙᴜᴀʜ ᴘʀᴏɢʀᴀᴍ ꜱᴏꜰᴛᴡᴀʀᴇ ʏᴀɴɢ ʙᴇʀᴘᴇʀᴀɴ
+ꜱᴇʙᴀɢᴀɪ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴠɪʀᴛᴜᴀʟ ᴀꜱꜱɪꜱᴛᴀɴᴛ.
+ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ᴍᴜɴɢᴋɪɴ ᴍᴀꜱɪʜ ᴇʀʀᴏʀ ᴀᴛᴀᴜ ʙᴇʟᴜᴍ ᴀᴅᴀ
+ᴋᴀʀᴇɴᴀ ᴍᴀꜱɪʜ ᴅᴀʟᴀᴍ ᴛᴀʜᴀᴘ ᴜᴊɪ ᴄᴏʙᴀ ᴅᴀɴ ᴘᴇɴɢᴇᴍʙᴀɴɢᴀɴ ᴏʟᴇʜ ᴏᴡɴᴇʀ.
+ꜱᴇɢᴀʟᴀ ᴋᴇᴋᴜʀᴀɴɢᴀɴ ꜰɪᴛᴜʀ ᴍᴏʜᴏɴ ᴅɪᴍᴀᴋʟᴜᴍɪ ᴋᴀʀᴇɴᴀ ɪɴɪ ꜱᴄʀɪᴘᴛ ʟᴀᴍᴀ ʏᴀɴɢ ᴋᴇᴍʙᴀʟɪ ᴅɪʀᴇᴄᴏᴅᴇ ᴜʟᴀɴɢ ʙᴜᴋᴀɴ ꜱᴄʀɪᴘᴛ ꜰʀᴇᴇ ᴀᴛᴀᴜ ꜱᴄ ʜᴀꜱɪʟ ʀᴇɴᴀᴍᴇᴅ
 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-ᴋᴇᴛɪᴋ (.ᴀʟʟᴍᴇɴᴜ) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ꜱᴇᴍᴜᴀꜰɪᴛᴜʀ, ᴊɪᴋᴀ ᴀᴅᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴇʀᴏʀ ꜱɪʟᴀᴋᴀɴ ʙᴇʀɪᴛᴀʜᴜ ᴋᴇ ᴏᴡɴᴇʀ ᴀsᴛʀᴏ, 
+ᴋᴇᴛɪᴋ (.ᴀʟʟᴍᴇɴᴜ) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ꜱᴇᴍᴜᴀꜰɪᴛᴜʀ, ᴊɪᴋᴀ ᴀᴅᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴇʀᴏʀ ꜱɪʟᴀᴋᴀɴ ʙᴇʀɪᴛᴀʜᴜ ᴋᴇ ᴏᴡɴᴇʀ
 %readmore
 `.trimStart(),
   header: '╭─────≼ %category ≽',
@@ -27,7 +32,7 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-'vynaamenu': 'Vynaa Menu',
+'vynaamenu': 'List Menu',
 }
  
   try {
@@ -180,16 +185,16 @@ let tags = {
     
  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
- let ihu = 'https://telegra.ph/file/3bbcc5063cffcf64c3643.jpg'
+ let ihu = 'https://telegra.ph/file/82561631f4e572868ca2c.png'
  
  conn.sendMessage(m.chat, {
       text: text,
       contextInfo: {
       externalAdReply: {
-      title: `VynaaMD - Official`,
+      title: `公式アストロボット`,
       body: global.author,
       thumbnailUrl: ihu,
-      sourceUrl: `https://chat.whatsapp.com/GsYaspIyyDlAyucbZJijm7`,
+      sourceUrl: `https://whatsapp.com/channel/0029VaMwHM2JJhzOZyd1i737`,
       mediaType: 1,
       renderLargerThumbnail: true
       }}})
