@@ -4,17 +4,17 @@ import { fileURLToPath } from 'url'
 
 /*============== INFO OWNER ==============*/
 global.link = {
-	ig: 'https://instagram.com',
-	gh: 'https://astrobotz.carrd.co/',
-	gc: 'https://chat.whatsapp.com/LhYsYJPwf8z3FvFnF3CItU',
-	web: 'https://astrobotz.carrd.co/',
+	ig: 'https://instagram.com/ini.frdii',
+	gh: 'https://whatsapp.com/channel/0029VaMwHM2JJhzOZyd1i737',
+	gc: 'https://whatsapp.com/channel/0029VaMwHM2JJhzOZyd1i737',
+	web: 'https://whatsapp.com/channel/0029VaMwHM2JJhzOZyd1i737',
 	nh: 'https://nhentai.net/g/365296/'
 }
 
 /*============== PAYMENT ==============*/
 global.pay = {
 	dana: '-',
-	ovo: '-',
+	ovo: '-,
 	gopay: '-',
 	pulsa: '-',
 	qris: 'https://telegra.ph/file/636b0b1730da1923dce35.jpg'
@@ -22,15 +22,15 @@ global.pay = {
 
 /*============== NOMOR ==============*/
 global.info = {
-	nomorbot: '62857059457519',
-	nomorown: '62857059457518',
-	namebot: 'AstroBOT',
-	nameown: 'X F ì r m á n ź x x x'
+	nomorbot: '62857059457516',
+	nomorown: '19419318284',
+	namebot: 'AstroxSpaceMD',
+	nameown: 'Ferdiix01DBinary.'
 }
 
 /*============== STAFF ==============*/
 global.owner = [
-    ['62857059457518', 'X F ì r m á n ź x x x', 'true']
+    ['19419318284', 'Ferdiix01DBinary', 'true']
     // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -45,7 +45,7 @@ global.APIs = {
     males: 'https://malesin.xyz',
     zein: 'https://api.zahwazein.xyz',
     rose: 'https://api.itsrose.life',
-    xzn: 'https://xzn.wtf',
+    xzn: 'https://skizo.tech',
     saipul: 'https://saipulanuar.cf'
 }
 global.APIKeys = {
@@ -55,12 +55,12 @@ global.APIKeys = {
     'https://api.xteam.xyz': 'cristian9407',
     'https://api.lolhuman.xyz': 'fafbc90143ed7cfe7a2907f9',
     'https://api.itsrose.life': '_',
-    'https://xzn.wtf' : 'vynaamd'
+    'https://skizo.tech' : 'fwrdyyzz'
 }
 
 /*============== WATERMARK ==============*/
-global.wm = '© AstroBOT 17.9' //Main Watermark
-global.author = 'Mnz Bimlek'
+global.wm = '© 公式アストロボット ' //Main Watermark
+global.author = 'by Ferdiix01DBinary.'
 
 /*============== TEXT ==============*/
 global.wait = '_In Progress_, _Tunggu Ya kak..._'
@@ -331,9 +331,9 @@ global.hwaifu = [
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'Made With'
-global.stickauth = 'AstroBOT 17.9'
+global.stickauth = 'VynaaMD 10.10'
 
-global.multiplier = 100 // The higher, The harder levelup
+global.multiplier = 38 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
@@ -390,8 +390,7 @@ global.rpg = {
             gelas: '🧋',
             chip: '♋',
             umpan: '🪱',
-            skata: '🧩',
-            role: '🎭'
+            skata: '🧩'
         }
         let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
         if (!results.length) return ''
